@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#">Blog</a>
+        <a href="#">Insta</a>
+        <a href="#">Youtube</a>
+        <a href="#">Wk</a>
+        <div style="display: flex; gap: 30px;">
+            <button id="loginBtn">войти</button>
+            <button id="exit">выйти</button>
+        </div>
+    </header>
+    <section class="section ">
+        <div id="sign-in" style="display: none; background-color: black;">
+            <button id="close">&times;</button>
+         <h1 style="color: white;">Вы успешно вошли </h1>
+        </div>
+        <div id="exit-div" style="display: none; background-color: black;">
+            <button id="exit-btn">&times;</button>
+            <h1 style="color: white;">вы успешно вышли</h1>
+        </div>
+        <form id="todo-form">
+            <input id="todo-input" class="input"/>
+            <button id="add-todo" class="button">добавить</button>
+        </form>
+        <div class="div-ols">
+            <ol id="ol-div">
+            
+        </ol>   
+        </div>
+        
+    </section>
+    <footer class="footer" style="display: flex;justify-content: center;align-items: center;">
+        &copy;<h1>timur</h1>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+
+</body>
+</html>
