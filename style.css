@@ -131,6 +131,11 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+.in {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
 
 .li button:hover {
     background-color: rgb(74, 91, 74);
